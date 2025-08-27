@@ -36,6 +36,7 @@ It provides investors with a comprehensive, interactive view of their portfolio 
 ## 📂 Project Structure
 
 stockDashboard/
+
 │
 
 ├── backend/
@@ -49,9 +50,13 @@ stockDashboard/
 │
 
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── App.js # Main React app
+
 │ │ ├── index.js
+
 │ ├── package.json
 
 │
