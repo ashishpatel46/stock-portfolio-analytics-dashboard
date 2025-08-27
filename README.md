@@ -132,7 +132,4 @@ Manually written/customized parts:
 
 ---
 
-## 📄 License
-This project is for educational and demonstration purposes.
 
----
