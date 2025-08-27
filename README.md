@@ -37,16 +37,23 @@ It provides investors with a comprehensive, interactive view of their portfolio 
 
 stockDashboard/
 │
+
 ├── backend/
+
 │ ├── api.js # Node.js Express backend server
+
 │ ├── Sample-Portfolio-Dataset-for-Assignment.xlsx # Excel data file
+
 │ ├── package.json
+
 │
+
 ├── frontend/
 │ ├── src/
 │ │ ├── App.js # Main React app
 │ │ ├── index.js
 │ ├── package.json
+
 │
 └── README.md
 
@@ -79,7 +86,7 @@ Frontend will run at:
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -90,7 +97,7 @@ Frontend will run at:
 
 ---
 
-## 🤖 AI Assistance Documentation
+##  AI Assistance Documentation
 
 This project was partially generated using AI tools (ChatGPT). Specific contributions include:
 - Initial backend API structure and calculation logic.
@@ -106,14 +113,14 @@ Manually written/customized parts:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <img width="848" height="578" alt="image" src="https://github.com/user-attachments/assets/a26c1c2c-da8c-4d91-8f38-218e7763f306" />
 
 
 ---
 
-## 📌 Notes
+##  Notes
 - Ensure `cors` is enabled in the backend for successful frontend API calls.
 - If using another Excel file, keep the **sheet names and column names consistent** or update parsing code in `backend/api.js`.
 - For production, consider environment variables for API URLs and deploy backend & frontend separately or as a combined build.
